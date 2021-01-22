@@ -1,5 +1,4 @@
 # Single-byte XOR cipher
-from collections import Counter
 from score import scores
 def hex_to_ascii(st):
 	g2=[]
