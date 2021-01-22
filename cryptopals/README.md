@@ -38,7 +38,7 @@
 		here we can use
 				"".join(chr(ord(i)^ord(j)) for i,j in zip(a,cycle(b)))
 		so what above line does is cycle(b) will create a string of length 'a' by repeatedly adding the string b 
-		now since both lengths are equal zip will pair every character of 'a' with every character of 'b' and 
+		now since both lengths are equal zip will pair every character of 'a' with each character of 'b' and 
 		return each pair as tuples (zip basically returns iterator of tuples)
 		(think 'a' and 'b' as sets containing characters and zip is something like one-one function)
 		# refer 5.py
