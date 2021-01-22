@@ -20,4 +20,11 @@
 		return each pair as tuples (zip basically returns iterator of tuples)
 		(think 'a' and 'b' as sets containing characters and zip is something like one-one function)
 		# refer 5.py
+7. AES in ECB mode:
+
+		Here the challenge is to decrypt given base_64 encoded text which is encrypted via AES in ECB mode
+		so we take the input string and decode it from base64 using .decode('base64') or  base64.b64decode()
+		and now we decrypt the encoded text
+		# refer 7.py
+		
 		
